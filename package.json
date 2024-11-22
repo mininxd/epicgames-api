@@ -2,7 +2,7 @@
   "name": "epic-free-games",
   "version": "1.0.0",
   "description": "Small scraping service for getting free games on Epic Games",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
