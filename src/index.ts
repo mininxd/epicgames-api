@@ -33,7 +33,8 @@ app.get('/', async (req: Request, res: Response) => {
         res.status(500).send({ 
             code: 500, 
             message: "Something went wrong when getting requested resource.", 
-            games: null 
+            games: null,
+            explicit: err
         });
     }
 });
